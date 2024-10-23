@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EAC9CB18-5FDF-43E7-862F-CA1E313BE415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sumodesk.Domain", "src\Sumodesk.Domain\Sumodesk.Domain.csproj", "{70556713-5418-4D02-AB49-3BBB3303B690}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70556713-5418-4D02-AB49-3BBB3303B690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70556713-5418-4D02-AB49-3BBB3303B690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70556713-5418-4D02-AB49-3BBB3303B690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70556713-5418-4D02-AB49-3BBB3303B690}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70556713-5418-4D02-AB49-3BBB3303B690} = {EAC9CB18-5FDF-43E7-862F-CA1E313BE415}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5646EC3-2892-4715-BD2E-25EB77A87D09}
